@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/homepage.css">
+    <link rel="stylesheet" href="/css/utilities.css">
+    <link rel="stylesheet" href="/css/panduan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <title>Relawanku.id </title>
+</head>
+
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white pt-lg-40 pb-lg-40 pt-30 pb-50">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="/img/logo-blue.png" width="200px" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-lg gap-lg-0 gap-2">
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="aktivitas.html">Aktivitas
+                            </a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="organisasi.html">Organisasi</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="donasi.html">Donasi</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link active" href="panduan-relawan.html">Panduan</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="tentang-kami.html">Tentang Kami</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill"
+                                href="signin.html" role="button">Sign
+                                In</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="banner container-fluid position-relative pt-lg-40 pb-lg-40 pt-30 pb-50">
+            <div class="row text-center align-content-center">
+                <div class="col-12 pr-md-5 text-center align-self-center">
+                    <h1 class="color-palette-3 my-5"><strong>Panduan Relawan
+                            di Relawanku.id</strong>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="panduan py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <ul id="list_status_title" class="nav flex-column">
+                        <li class="nav-item">
+                            <a data-filter="relawan"
+                                class="nav-link btn btn-status rounded-pill text-sm btn-active mb-3" aria-current="page"
+                                href="#relawan">Panduan Relawan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-filter="organisasi" class="nav-link btn btn-status rounded-pill text-sm mb-3"
+                                href="#organisasi">Panduan Organisasi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-filter="donasi" class="nav-link btn btn-status rounded-pill text-sm mb-3"
+                                href="#donasi">Panduan Berdonasi</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="list_status_item" class="col-9">
+                    <div data-category="relawan" id="relawan" class="container-fluid mb-5">
+                        <h2 class="text-center">Panduan Untuk Relawan</h2>
+                        <hr class="line-panduan mb-5">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col mt-4 mt-md-0">
+                                <img alt="image" class="img-fluid" src="img/steps.jpg">
+                            </div>
+                            <div class="col">
+                                <h2>Daftar sebagai relawan</h2>
+                                <p class="mt-3">Sumbangkan waktu dan talentamu kepada
+                                    organisasi/komunitas sosial dengan ragam aktivitas.</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center justify-content-center pt-5 pb-5">
+                            <div class="col">
+                                <h2 class="text-end">Lengkapi profil</h2>
+                                <p class="text-end mt-3">Kelengkapan profil mempengaruhi
+                                    kesuksesan
+                                    aplikasimu kepada organisasi/komunitas sosial. Cari waktu untuk lengkapi profil agar
+                                    organisasi tahu talentamu!</p>
+                            </div>
+                            <div class="col mt-4 mt-md-0">
+                                <img alt="image" class="img-fluid" src="img/steps.jpg">
+                            </div>
+                        </div>
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col mt-4 mt-md-0">
+                                <img alt="image" class="img-fluid" src="img/steps.jpg">
+                            </div>
+                            <div class="col">
+                                <h2>Cari aktivitas</h2>
+                                <p class="mt-3">Kegiatan lokal atau virtual? Hari kerja atau
+                                    akhir
+                                    pekan? Cari aktivas yang sesuai dengan lokasi, waktu, preferensi isu sosial, hingga
+                                    minatmu.
+                                    Pilihan tidak terbatas!</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center justify-content-center pt-5 pb-5">
+                            <div class="col">
+                                <h2 class="text-end">Daftar aktivitas</h2>
+                                <p class="text-end mt-3">Sudah menemukan aktivitas yang
+                                    cocok? Klik
+                                    tombol Jadi Relawan dan isi form pendaftaran. Tunggu status aplikasimu melalui fitur
+                                    Pesan
+                                    ya!</p>
+                            </div>
+                            <div class="col mt-4 mt-md-0">
+                                <img alt="image" class="img-fluid" src="img/steps.jpg">
+                            </div>
+                        </div>
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col mt-4 mt-md-0">
+                                <img alt="image" class="img-fluid" src="img/steps.jpg">
+                            </div>
+                            <div class="col">
+                                <h2>Jadi inspirasi (bagikan ke media sosial)</h2>
+                                <p class="mt-3">Selesai aktivitas? Dapatkan testimoni dan
+                                    badges dari
+                                    organisasi! Semakin banyak yang kamu koleksi, semakin banyak yang terinspirasi.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-category="organisasi" id="organisasi" class="container-fluid mb-5">
+                        <h2 class="text-center">Panduan Untuk Organisasi</h2>
+                        <hr class="line-panduan mb-5">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col mt-4 mt-md-0">
+                                <img alt="image" class="img-fluid" src="img/steps.jpg">
+                            </div>
+                            <div class="col">
+                                <h2>Daftar sebagai relawan</h2>
+                                <p class="mt-3">Sumbangkan waktu dan talentamu kepada
+                                    organisasi/komunitas sosial dengan ragam aktivitas.</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center justify-content-center pt-5 pb-5">
+                            <div class="col">
+                                <h2 class="text-end">Lengkapi profil</h2>
+                                <p class="text-end mt-3">Kelengkapan profil mempengaruhi
+                                    kesuksesan
+                                    aplikasimu kepada organisasi/komunitas sosial. Cari waktu untuk lengkapi profil agar
+                                    organisasi tahu talentamu!</p>
+                            </div>
+                            <div class="col mt-4 mt-md-0">
+                                <img alt="image" class="img-fluid" src="img/steps.jpg">
+                            </div>
+                        </div>
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col mt-4 mt-md-0">
+                                <img alt="image" class="img-fluid" src="img/steps.jpg">
+                            </div>
+                            <div class="col">
+                                <h2>Cari aktivitas</h2>
+                                <p class="mt-3">Kegiatan lokal atau virtual? Hari kerja atau
+                                    akhir
+                                    pekan? Cari aktivas yang sesuai dengan lokasi, waktu, preferensi isu sosial, hingga
+                                    minatmu.
+                                    Pilihan tidak terbatas!</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center justify-content-center pt-5 pb-5">
+                            <div class="col">
+                                <h2 class="text-end">Daftar aktivitas</h2>
+                                <p class="text-end mt-3">Sudah menemukan aktivitas yang
+                                    cocok? Klik
+                                    tombol Jadi Relawan dan isi form pendaftaran. Tunggu status aplikasimu melalui fitur
+                                    Pesan
+                                    ya!</p>
+                            </div>
+                            <div class="col mt-4 mt-md-0">
+                                <img alt="image" class="img-fluid" src="img/steps.jpg">
+                            </div>
+                        </div>
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col mt-4 mt-md-0">
+                                <img alt="image" class="img-fluid" src="img/steps.jpg">
+                            </div>
+                            <div class="col">
+                                <h2>Jadi inspirasi (bagikan ke media sosial)</h2>
+                                <p class="mt-3">Selesai aktivitas? Dapatkan testimoni dan
+                                    badges dari
+                                    organisasi! Semakin banyak yang kamu koleksi, semakin banyak yang terinspirasi.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-category="donasi" id="donasi" class="container-fluid mb-5">
+                        <h2 class="text-center">Panduan Donasi</h2>
+                        <hr class="line-panduan mb-5">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col mt-4 mt-md-0">
+                                <img alt="image" class="img-fluid" src="img/steps.jpg">
+                            </div>
+                            <div class="col">
+                                <h2>Daftar sebagai relawan</h2>
+                                <p class="mt-3">Sumbangkan waktu dan talentamu kepada
+                                    organisasi/komunitas sosial dengan ragam aktivitas.</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center justify-content-center pt-5 pb-5">
+                            <div class="col">
+                                <h2 class="text-end">Lengkapi profil</h2>
+                                <p class="text-end mt-3">Kelengkapan profil mempengaruhi
+                                    kesuksesan
+                                    aplikasimu kepada organisasi/komunitas sosial. Cari waktu untuk lengkapi profil agar
+                                    organisasi tahu talentamu!</p>
+                            </div>
+                            <div class="col mt-4 mt-md-0">
+                                <img alt="image" class="img-fluid" src="img/steps.jpg">
+                            </div>
+                        </div>
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col mt-4 mt-md-0">
+                                <img alt="image" class="img-fluid" src="img/steps.jpg">
+                            </div>
+                            <div class="col">
+                                <h2>Cari aktivitas</h2>
+                                <p class="mt-3">Kegiatan lokal atau virtual? Hari kerja atau
+                                    akhir
+                                    pekan? Cari aktivas yang sesuai dengan lokasi, waktu, preferensi isu sosial, hingga
+                                    minatmu.
+                                    Pilihan tidak terbatas!</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center justify-content-center pt-5 pb-5">
+                            <div class="col">
+                                <h2 class="text-end">Daftar aktivitas</h2>
+                                <p class="text-end mt-3">Sudah menemukan aktivitas yang
+                                    cocok? Klik
+                                    tombol Jadi Relawan dan isi form pendaftaran. Tunggu status aplikasimu melalui fitur
+                                    Pesan
+                                    ya!</p>
+                            </div>
+                            <div class="col mt-4 mt-md-0">
+                                <img alt="image" class="img-fluid" src="img/steps.jpg">
+                            </div>
+                        </div>
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col mt-4 mt-md-0">
+                                <img alt="image" class="img-fluid" src="img/steps.jpg">
+                            </div>
+                            <div class="col">
+                                <h2>Jadi inspirasi (bagikan ke media sosial)</h2>
+                                <p class="mt-3">Selesai aktivitas? Dapatkan testimoni dan
+                                    badges dari
+                                    organisasi! Semakin banyak yang kamu koleksi, semakin banyak yang terinspirasi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-5 pb-5">
+        <div class="container">
+
+        </div>
+    </section>
+
+    <section class="footer pt-50">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 text-lg-start text-center">
+                        <a href="" class="mb-30">
+                            <img src="/img/logo-blue.png" width="200px" alt="logo">
+                        </a>
+                        <p class="mt-30 text-lg color-palette-1 mb-30">Wadah online untuk mempertemukan
+                            relawan dan organisasi/komunitas sosial.</p>
+                        <p class="mt-30 text-lg color-palette-1 mb-30">Copyright 2021. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-8 mt-lg-0 mt-20">
+                        <div class="row gap-sm-0">
+                            <div class="col-md-4 col-6 mb-lg-0 mb-25">
+                                <p class="text-lg fw-semibold color-palette-1 mb-12">Relawanku.id</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Tentang Kami</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Donasi
+                                            Sekarang</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Syarat &
+                                            Ketentuan</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-6 mb-lg-0 mb-25">
+                                <p class="text-lg fw-semibold color-palette-1 mb-12">Aksi Baik</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Cari
+                                            Aktivitas</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Cari
+                                            Organisasi</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-12 mt-lg-0 mt-md-0 mt-25">
+                                <p class="text-lg fw-semibold color-palette-1 mb-12">Kontak Kami</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-6">
+                                        <a href="mailto: relawanku.id@gmail.com"
+                                            class="text-lg color-palette-1 text-decoration-none">relawanku.id@gmail.com</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="https://goo.gl/maps/JKa1jLkGpc3TLBbP9"
+                                            class="text-lg color-palette-1 text-decoration-none">Jl.
+                                            Veteran, Ketawanggede,
+                                            Kec. Lowokwaru
+                                            Kota Malang 65145</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="tel: 02111229090"
+                                            class="text-lg color-palette-1 text-decoration-none">021 - 1122 -
+                                            9090</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(".btn-status").click(function () {
+                $(this).addClass("btn-active");
+                $(".btn-status").not(this).removeClass("btn-active");
+            });
+
+            $('#list_status_title a').click(function (event) {
+                var filter = $(event.target).attr('data-filter');
+                $('#list_status_item div').each(function () {
+                    var item = $(this);
+                    console.log(item.attr('data-category'));
+
+                    if (filter == 'relawan')
+                        item.show();
+                    else if (filter == 'organisasi')
+                        item.show();
+                    else if (filter == 'donasi')
+                        item.show();
+                    else
+                        item.hide();
+                });
+            });
+        });
+    </script>
+
+    <!-- AOS Animation -->
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+
+</html>

@@ -1,0 +1,132 @@
+.banner{
+    background-color: #0099ff;
+}
+
+.btn-apply{
+    background-color: #0099FF;
+    padding: 0.75rem 3rem;
+    font-weight: bold;
+}
+
+.detail textarea{
+    font-size: small;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.detail-aktivitas .text-judul{
+    font-weight: 700;
+    font-size: x-large;
+    color: #00233a;
+}
+
+.detail-aktivitas .text-isi{
+    font-weight: normal;
+    font-size: normal;
+    letter-spacing: 0.025rem;
+    color: #797fa5;
+    padding-top: 1rem;
+    padding-right: 3rem;
+}
+
+
+
+.detail-aktivitas .accordion .accordion-item .accordion-header .accordion-button{
+    font-weight: normal;
+    color: #6dc3e1;
+}
+
+.detail-aktivitas .accordion .accordion-item .accordion-body{
+    font-weight: normal;
+    font-size: small;
+    letter-spacing: 0.025rem;
+    color: #797fa5;
+    padding-right: 3rem;
+}
+
+ol, ul {
+    padding-left: 1rem;
+}
+
+.volunteer{
+    max-width: 100px;
+    align-items: center;
+}
+
+.img-volunteer{   
+    width: 50px;
+    height: auto;
+    border-radius: 5rem;
+    margin-top: 1rem;
+}
+
+.btn-lainnya{
+    background-color: #0099FF;
+    color: #fefefe;
+    transition-duration: 0.4s;
+    border: 3px solid #0099FF;
+}
+
+.btn-lainnya:hover{
+    background-color: white;
+    color: #0099FF;
+    border: 3px solid #0099FF;
+}
+
+
+
+/* Details */
+.detail .img-fluid{
+    max-width: 100%;
+    height: auto;
+    border-radius: 1.625rem;
+}
+
+.detail hr{
+        margin: 0;    
+        background-color:#E7EAF5;
+        border: 0;
+        opacity: 1;
+}
+
+.detail input[type="text"]{
+    max-width: 437px;
+    border: 1px solid #0C145A;
+    padding: 0.75rem 1.625rem;
+    color: #0C145A;
+}
+
+.detail input[type="text"]:focus-within{
+    color: #0C145A;
+}
+
+.detail input[type="text"]::placeholder{
+    color: #CCD0DD;
+}
+
+.detail .detail-card{
+    transition: all 0.1s linear;
+    background-color: #F9FAFF;
+    border-radius: 1.625rem;
+    padding: 1.875rem;
+    cursor: pointer;
+}
+
+.detail input[type="radio"]:checked+.detail-card{
+    border: 2px solid #00BAFF;
+    background-color: rgba(0, 186, 255, 0.05);
+}
+
+.detail .detail-card #icon-check{
+    transition: all 0.1s linear;
+    opacity: 0;
+}
+
+.detail input[type="radio"]:checked+.detail-card #icon-check{
+    opacity: 1;
+}
+
+.detail .btn-submit{    
+        background-color: #4D17E2;
+        padding: 0.75rem 3rem;
+}

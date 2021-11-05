@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+$nunito-font : 'Nunito', sans-serif;
+
+html{
+    font-family:$nunito-font !important;
+}
+
+nav ul{
+    font-family:$nunito-font;
+}
+
+h1, h2 , h3, h4, h5, h6{
+    font-family:$nunito-font;
+}
+
+p{
+    font-family:$nunito-font;
+    font-weight: 900;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 2px solid rgb(0, 153, 255);
+}

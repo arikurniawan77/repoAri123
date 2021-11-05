@@ -1,0 +1,218 @@
+body{
+    background-color: #fefefe;
+}
+
+.banner{
+    background-color: #0099ff;
+}
+
+.btn-get{
+    background-color: #0099FF;
+    padding: 0.75rem 3rem;
+    margin-top: 6rem;
+}
+
+.btn-apply{
+    background-color: #0099FF;
+    padding: 0.75rem 3rem;
+    font-weight: bold;
+}
+
+.detail-organisasi .text-judul{
+    font-weight: 700;
+    font-size: x-large;
+    color: #00233a;
+}
+
+.detail-organisasi .text-isi{
+    font-weight: normal;
+    font-size: normal;
+    letter-spacing: 0.025rem;
+    color: #797fa5;
+    padding-top: 1rem;
+    padding-right: 3rem;
+    margin-bottom: 0rem;
+}
+
+.detail-aktivitas .accordion .accordion-item .accordion-header .accordion-button{
+    font-weight: normal;
+    color: #6dc3e1;
+}
+
+.detail-aktivitas .accordion .accordion-item .accordion-body{
+    font-weight: normal;
+    font-size: small;
+    letter-spacing: 0.025rem;
+    color: #797fa5;
+    padding-right: 3rem;
+}
+
+ol, ul {
+    padding-left: 1rem;
+}
+
+.detail-organisasi .img-organisasi{
+    width: 375px;
+}
+
+.btn.btn-social-icon {
+	width: 50px;
+	height: 50px;
+	padding: 0rem;
+    border-radius: 15rem;
+    transition-duration: 0.4s;
+}
+
+.btn-facebook {
+	background-color: #4267B2;
+	color: #ffffff;
+}
+
+.btn-facebook:hover{
+    color: #4267B2;
+    background-color: #ffffff;
+    border: 3px solid #4267B2;
+}
+
+.btn-twitter {
+	background-color: #2caae1;
+	color: #ffffff
+}
+
+.btn-twitter:hover{
+    color: #2caae1;
+    background-color: #ffffff;
+    border: 3px solid #2caae1;
+}
+
+.btn-whatsapp {
+	background-color: #02b875;
+	color: #ffffff
+}
+
+.btn-whatsapp:hover{
+    color: #02b875;
+    background-color: #ffffff;
+    border: 3px solid #02b875;
+}
+
+.btn-lainnya{
+    background-color: #0099FF;
+    color: #fefefe;
+    transition-duration: 0.4s;
+    border: 3px solid #0099FF;
+}
+
+.btn-lainnya:hover{
+    background-color: white;
+    color: #0099FF;
+    border: 3px solid #0099FF;
+}
+
+/* activities-card */
+.activities-card {
+    background-color: #ffffff;
+    color: #00233a;
+    border: 3px solid #797fa5;
+    padding: 1.275rem;
+    border-radius: 1.25rem;
+}
+
+.detail-organisasi .activities-card img {
+    min-width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.detail-organisasi .overflow-setting {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.detail-organisasi .activities-card {
+    transition: all 0.4s;
+    min-width: 350px;
+    min-height: 650px;
+}
+
+.detail-organisasi .activities-card:hover {
+    transition: all 0.4s;
+    border: 4px solid #6dc3e1;
+}
+
+.detail-organisasi .activities-card .blur-sharp {
+    overflow: hidden;
+    border-radius: 1.625rem;
+}
+
+.detail-organisasi .cover {
+    transition: all 0.4s;
+    opacity: 50;
+    left: 0;
+    right: 0;
+    height: -webkit-fill-available;
+}
+
+.detail-organisasi .activities-card .line {
+    border: 2px solid #6dc3e1;
+}
+
+.detail-organisasi .activities-card:hover .cover {
+    opacity: 1;
+}
+
+/* Details */
+.detail .img-fluid{
+    max-width: 100%;
+    height: auto;
+    border-radius: 1.625rem;
+}
+
+.detail hr{
+        margin: 0;    
+        background-color:#E7EAF5;
+        border: 0;
+        opacity: 1;
+}
+
+.detail input[type="text"]{
+    max-width: 437px;
+    border: 1px solid #0C145A;
+    padding: 0.75rem 1.625rem;
+    color: #0C145A;
+}
+
+.detail input[type="text"]:focus-within{
+    color: #0C145A;
+}
+
+.detail input[type="text"]::placeholder{
+    color: #CCD0DD;
+}
+
+.detail .detail-card{
+    transition: all 0.1s linear;
+    background-color: #F9FAFF;
+    border-radius: 1.625rem;
+    padding: 1.875rem;
+    cursor: pointer;
+}
+
+.detail input[type="radio"]:checked+.detail-card{
+    border: 2px solid #00BAFF;
+    background-color: rgba(0, 186, 255, 0.05);
+}
+
+.detail .detail-card #icon-check{
+    transition: all 0.1s linear;
+    opacity: 0;
+}
+
+.detail input[type="radio"]:checked+.detail-card #icon-check{
+    opacity: 1;
+}
+
+.detail .btn-submit{    
+        background-color: #4D17E2;
+        padding: 0.75rem 3rem;
+}

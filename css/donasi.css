@@ -1,0 +1,77 @@
+body {
+    background-color: #FEFEFE;
+}
+
+.banner {
+    /* background-color: #00233a; */
+    background-color: #0099ff;
+}
+
+.btn-apply {
+    background-color: #0099FF;
+    padding: 0.75rem 3rem;
+    font-weight: bold;
+}
+
+.progress{
+    height: 6px;
+}
+
+.donasi-card {
+    background-color: #ffffff;
+    color: #00233a;
+    border: 3px solid #797fa5;
+    padding: 1.275rem;
+    border-radius: 1.25rem;
+}
+
+.donasi .donasi-card img {
+    min-width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.donasi .overflow-setting {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+
+.donasi .donasi-card {
+    transition: all 0.4s;
+    min-width: 350px;
+    min-height: 550px;
+}
+
+.donasi .donasi-card:hover {
+    transition: all 0.4s;
+    border: 4px solid #6dc3e1;
+}
+
+.donasi .donasi-card .blur-sharp {
+    overflow: hidden;
+    border-radius: 1.625rem;
+}
+
+.donasi .cover {
+    transition: all 0.4s;
+    opacity: 50;
+    left: 0;
+    right: 0;
+    height: -webkit-fill-available;
+}
+
+.donasi .donasi-card .line {
+    border: 2px solid #6dc3e1;
+}
+
+.donasi .donasi-card:hover .cover {
+    opacity: 1;
+}
+
+
+@media (min-width:768px) {
+    .donasi .overflow-setting {
+        overflow: hidden;
+    }
+}

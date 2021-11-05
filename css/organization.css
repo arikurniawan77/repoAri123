@@ -1,0 +1,73 @@
+body {
+    background-color: #fefefe;
+}
+
+.banner {
+    /* background-color: #00233a; */
+    background-color: #0099ff;
+}
+
+.btn-apply {
+    background-color: #0099FF;
+    padding: 0.75rem 3rem;
+    font-weight: bold;
+}
+
+.organization-card {
+    background-color: #fff;
+    color: #00233a;
+    border: 3px solid #797fa5;
+    padding: 1.275rem;
+    border-radius: 1.25rem;
+}
+
+.organization .organization-card img {
+    min-width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.organization .overflow-setting {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+
+.organization .organization-card {
+    transition: all 0.4s;
+    min-width: 275px;
+    min-height: 450px;
+}
+
+.organization .organization-card:hover {
+    transition: all 0.4s;
+    border: 4px solid #6dc3e1;
+}
+
+.organization .organization-card .blur-sharp {
+    overflow: hidden;
+    border-radius: 1.625rem;
+}
+
+.organization .cover {
+    transition: all 0.4s;
+    opacity: 50;
+    left: 0;
+    right: 0;
+    height: -webkit-fill-available;
+}
+
+.organization .organization-card .line {
+    border: 2px solid #6dc3e1;
+}
+
+.organization .organization-card:hover .cover {
+    opacity: 1;
+}
+
+
+@media (min-width:768px) {
+    .organization .overflow-setting {
+        overflow: hidden;
+    }
+}
